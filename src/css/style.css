@@ -69,3 +69,6 @@
   margin-top: 10px;
   width: 35px;
 }
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg)
+}
