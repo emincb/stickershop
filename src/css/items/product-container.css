@@ -21,6 +21,7 @@
   margin-left: 10px;
   background: rgb(255, 255, 255);
   border-radius: 10px;
+  box-shadow: 5px 5px 1px 1px rgb(180, 174, 174);
 
   transition: all ease-in-out 250ms;
 }
@@ -54,5 +55,6 @@
 }
 
 .product-price {
+  color: blue;
   margin-top: 10px;
 }
