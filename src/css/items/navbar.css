@@ -1,4 +1,4 @@
-.header {
+.navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,6 +25,7 @@
 .header-item {
   margin: 0 10px;
   transition: 0.5s ease;
+  text-transform: uppercase;
 }
 .header-item:hover {
   color: purple;
