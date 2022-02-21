@@ -3,8 +3,12 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  background: rgb(243, 241, 237);
 }
 
 #logo {
@@ -17,31 +21,10 @@
   height: 40vh;
 }
 
-.header {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  line-height: 3rem;
-  width: 100%;
-  background-color: transparent;
-}
-
-.left {
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-
-.middle {
-  display: flex;
-}
-
-.header-item {
-  margin: 0 10px;
-}
-
 .bottom-header {
   display: flex;
   margin: 15px 30px;
+  align-items: flex-start;
 }
 
 .title {
@@ -65,10 +48,6 @@
   width: 30%;
 }
 
-.icon {
-  margin-top: 10px;
-  width: 35px;
-}
 .dark-mode {
-  filter: invert(1) hue-rotate(180deg)
+  filter: invert(1) hue-rotate(180deg);
 }

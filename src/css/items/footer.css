@@ -1,0 +1,9 @@
+footer {
+  background: gray;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
