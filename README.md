@@ -7,5 +7,5 @@ height="150px"/>
 
 ### Contributors
 
-- 🥇 [@akcaaytuna](https://github.com/akcaaytuna)
+- 🥇 [@neglux](https://github.com/neglux)
 - 🥇 [@emincb](https://github.com/emincb)
