@@ -7,3 +7,12 @@ footer a {
   color: white;
   font-size: 0.8rem;
 }
+
+footer a:hover {
+  color: orange;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
