@@ -1,60 +1,71 @@
-/* .product-container {
-  display: flex;
+.product-container {
   width: 100%;
-  height: 70vh;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  padding-left: 50px;
-  padding-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 15px;
+  padding: 75px 50px;
 }
 
-.product {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 170px;
-  height: 250px;
-  margin-top: 70px;
-  margin-left: 10px;
-  background: rgb(255, 255, 255);
-  border-radius: 10px;
-  box-shadow: 5px 5px 1px 1px rgb(180, 174, 174);
-
-  transition: all ease-in-out 250ms;
+.product-card {
+  width: 100%;
+  background: white;
 }
 
-.product::before {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: purple;
-
+.product-image {
   position: relative;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
-}
-
-.product:hover {
-  color: purple;
-}
-
-.product:hover::before {
   width: 100%;
+  height: 80%;
+  overflow: hidden;
 }
 
-.product-img {
-  margin-top: 20px;
+.product-image > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-content {
+  padding: 20px 15px;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 .product-name {
-  margin-top: 10px;
+  font-weight: lighter;
+  padding-bottom: 10px;
 }
 
 .product-price {
-  color: blue;
-  margin-top: 10px;
-} */
+  color: rgb(150, 4, 65);
+}
+
+.action {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.product-card:hover .action li {
+  transform: translateX(0px);
+}
+.action li {
+  position: relative;
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  transform: translateX(100px);
+  transition: transform 0.7s ease;
+}
+
+.action li:hover {
+  background: rgb(219, 117, 219);
+}
