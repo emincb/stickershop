@@ -1,11 +1,11 @@
 footer {
-  background: gray;
+  background: rgb(73, 73, 73);
 }
 
 footer a {
   text-decoration: none;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 footer a:hover {
@@ -15,4 +15,47 @@ footer a:hover {
 .footer-container {
   display: flex;
   flex-direction: column;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom {
+  padding-bottom: 10px;
+}
+
+.payment-methods {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.payment-icon {
+  height: 35px;
+  margin: 0px 5px;
+  background-color: white;
+  padding: 0px 5px;
+  border-radius: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+/* .hidden {
+  visibility: hidden;
+} */

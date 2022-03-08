@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   line-height: 3rem;
@@ -9,12 +9,9 @@
 }
 
 .left {
-  font-size: 1.5rem;
+  margin-left: 20px;
+  font-size: 1.9rem;
   font-weight: bolder;
-}
-
-.middle {
-  display: flex;
 }
 
 .right {

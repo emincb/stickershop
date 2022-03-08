@@ -23,8 +23,23 @@ main {
 
 .bottom-header {
   display: flex;
-  margin: 15px 30px;
+  padding: 0px 50px;
   align-items: flex-start;
+}
+
+.left-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
 .title {
@@ -33,19 +48,7 @@ main {
 }
 
 .sub-info {
-  font-size: 0.7rem;
-}
-
-.left-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 70%;
-  height: 100%;
-}
-
-.right-container {
-  width: 30%;
+  font-size: 0.9rem;
 }
 
 .dark-mode {
