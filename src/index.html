@@ -12,17 +12,31 @@
     <title>Sticker Shop</title>
   </head>
   <body>
+    <div class="top-header">
+      <div class="left-cont">
+        <span>Da best stickers</span>
+      </div>
+      <div class="right-cont">
+        <div class="search-box">
+          <input
+            class="close"
+            id="search"
+            type="text"
+            placeholder="Type to search"
+          />
+          <img
+            id="search-icon"
+            src="/src/img/search.png"
+            alt="search-icon"
+            height="20px"
+          />
+        </div>
+      </div>
+    </div>
     <section class="top-section">
       <header>
         <nav class="navigation">
           <div class="left">StickerShop</div>
-          <div class="middle">
-            <div class="header-item">category_1</div>
-            <div class="header-item">category_2</div>
-            <div class="header-item">category_3</div>
-            <div class="header-item">category_4</div>
-            <div class="header-item">category_5</div>
-          </div>
           <div class="right">
             <div class="header-item">
               <img class="icon" src="img/shopping-cart.png" alt="chart_icon" />
@@ -73,8 +87,8 @@
           <div id="home-delivery" class="subtitle"><p>Home Delivery</p></div>
           <div id="home-delivery-description">
             <p>
-              We're sending your stickers safely and fast as soon as possible to
-              your sweet homes
+              We're sending your stickers safely and as soon as possible to your
+              sweet homes
             </p>
           </div>
         </div>
@@ -109,110 +123,341 @@
           </div>
         </div>
       </div>
-
       <div class="product-container">
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/jon-tyson-rW854PQU3ts-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/jon-tyson-rW854PQU3ts-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>John Tyson</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/marc-newberry-xKnUnPEUiWA-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/marc-newberry-xKnUnPEUiWA-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>Marc Newberry</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/max-van-den-oetelaar-uymG7UVPXpI-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/max-van-den-oetelaar-uymG7UVPXpI-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>Max van den Oetelaar</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/moritz-mentges-XO4-P9pyK64-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/moritz-mentges-XO4-P9pyK64-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>Moritz Mentges</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/tim-oun-uXCy7ixz30w-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/tim-oun-uXCy7ixz30w-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>Tim Oun</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/max-van-den-oetelaar-uymG7UVPXpI-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/jon-tyson-rW854PQU3ts-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>John Tyson</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
-        <div class="product">
-          <img
-            class="product-img"
-            src="img/products/jon-tyson-rW854PQU3ts-unsplash.jpg"
-            alt="product"
-            width="100px"
-            height="100px"
-          />
-          <span class="product-name">Programming Stickers</span>
-          <span class="product-price">2.95$</span>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="/src/img/products/moritz-mentges-XO4-P9pyK64-unsplash.jpg"
+              alt="product-icon"
+            />
+            <ul class="action">
+              <li>
+                <img
+                  src="/src/img/heart.png"
+                  alt="favourite-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img
+                  src="/src/img/shopping-cart.png"
+                  alt="chart-icon"
+                  width="25px"
+                />
+              </li>
+              <li>
+                <img src="/src/img/eye.png" alt="details-icon" width="25px" />
+              </li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="product-name">
+              <span>Moritz Mentges</span>
+            </div>
+            <div class="product-price">
+              <span>1.2$</span>
+            </div>
+          </div>
         </div>
       </div>
     </main>
     <footer>
       <div class="footer-container">
-        <a
-          href="https://www.flaticon.com/free-icons/shopping-cart"
-          title="shopping cart icons"
-          >Shopping cart icons created by Roundicons Premium - Flaticon</a
-        >
-        <a
-          href="https://www.flaticon.com/free-icons/fast-delivery"
-          title="fast delivery icons"
-          >Fast delivery icons created by Freepik - Flaticon</a
-        >
-        <a
-          href="https://www.flaticon.com/free-icons/refund"
-          title="refund icons"
-          >Refund icons created by Andrean Prabowo - Flaticon</a
-        >
-        <a
-          href="https://www.flaticon.com/free-icons/variety"
-          title="variety icons"
-          >Variety icons created by Freepik - Flaticon</a
-        >
+        <div class="top">
+          <div class="payment-methods">
+            <img
+              class="payment-icon"
+              src="/src/img/paypal.png"
+              alt="paypal"
+              width="50px"
+            />
+            <img
+              class="payment-icon"
+              src="/src/img/visa.png"
+              alt="visa"
+              width="50px"
+            />
+          </div>
+          <div class="links">
+            <a
+              href="https://www.flaticon.com/free-icons/visa"
+              title="visa icons"
+              >Visa icons created by Freepik - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/paypal"
+              title="paypal icons"
+              >Paypal icons created by Freepik - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/shopping-cart"
+              title="shopping cart icons"
+              >Shopping cart icons created by Roundicons Premium - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/fast-delivery"
+              title="fast delivery icons"
+              >Fast delivery icons created by Freepik - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/refund"
+              title="refund icons"
+              >Refund icons created by Andrean Prabowo - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/variety"
+              title="variety icons"
+              >Variety icons created by Freepik - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/search"
+              title="search icons"
+              >Search icons created by Handicon - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/heart"
+              title="heart icons"
+              >Heart icons created by Freepik - Flaticon</a
+            >
+            <a href="https://www.flaticon.com/free-icons/eye" title="eye icons"
+              >Eye icons created by Gregor Cresnar - Flaticon</a
+            >
+          </div>
+        </div>
+        <div class="bottom">
+          <span class="copyright">© All rights reserved stickershop.com</span>
+        </div>
       </div>
     </footer>
+    <script src="/src/scripts/script.js"></script>
   </body>
 </html>
