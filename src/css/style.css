@@ -15,6 +15,51 @@ main {
   width: 15rem;
 }
 
+.top-header {
+  background: rgb(48, 48, 48);
+  color: white;
+  padding: 2px 0px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.left-cont {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.right-cont {
+  width: 80%;
+  display: flex;
+  margin-right: 150px;
+  justify-content: flex-end;
+}
+
+.search-box {
+  background: white;
+  margin: 2px 0px;
+  padding: 0px 10px;
+  border-radius: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box:hover > #search {
+  width: 220px;
+}
+#search {
+  border: none;
+  background: none;
+  outline: none;
+  transition: all 0.4s ease;
+  width: 0px;
+}
+
 .top-section {
   background: linear-gradient(to bottom, rgb(248, 162, 1), rgb(243, 176, 51));
   color: white;
@@ -53,4 +98,8 @@ main {
 
 .dark-mode {
   filter: invert(1) hue-rotate(180deg);
+}
+
+.hidden {
+  visibility: hidden;
 }
