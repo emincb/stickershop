@@ -43,7 +43,7 @@
   border: 2px solid white;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 12px;
+  margin: 12px 0px 0px 5px;
   width: 35px;
   transition: 1s ease;
 }
