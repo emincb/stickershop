@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/items/about.css">
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>About</title>
+    <link rel="stylesheet" href="css/items/about.css" />
+    <link rel="stylesheet" href="css/items/footer.css" />
+  </head>
+  <body>
+    <div class="top-header">
+      <div class="left-cont">
+        <span>Da best stickers</span>
+      </div>
+      <div class="right-cont">
+        <div class="search-box">
+          <input
+            class="close"
+            id="search"
+            type="text"
+            placeholder="Type to search"
+          />
+          <img
+            id="search-icon"
+            src="img/search.png"
+            alt="search-icon"
+            height="20px"
+          />
+        </div>
+      </div>
+    </div>
     <div class="about-section">
       <h1>About Us Page</h1>
       <p>Sticker dudes who happen to sell stickers.</p>
       <p></p>
     </div>
-    
-    <h2 style="text-align:center">Our Team</h2>
+
+    <h2 style="text-align: center">Our Team</h2>
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="" alt="Emin" style="width:100%">
+          <img src="" alt="Emin" style="width: 100%; display: none" />
           <div class="container">
             <h2>Emin Can Başkaya</h2>
-            <p class="title">CEO & Founder</p>
+            <p class="title">Co-Founder</p>
             <p>lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
             <p>emin@example.com</p>
             <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
-    
+
       <div class="column">
         <div class="card">
-          <img src="" alt="Tuna" style="width:100%">
+          <img src="" alt="Tuna" style="width: 100%; display: none" />
           <div class="container">
             <h2>Tuna</h2>
-            <p class="title">CEO & Founder</p>
+            <p class="title">Co-Founder</p>
             <p>lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
             <p>tuna@example.com</p>
             <p><button class="button">Contact</button></p>
@@ -38,5 +62,40 @@
         </div>
       </div>
     </div>
-  </head>
-</html> 
+    <footer>
+      <div class="footer-container">
+        <div class="top">
+          <div class="home container">
+            <a href="index.html"><span>Home</span></a>
+          </div>
+          <div class="about container">
+            <a href="about.html"><span>About</span></a>
+          </div>
+          <div class="payments container">
+            <span>Payments</span>
+            <div class="payment-methods">
+              <img
+                class="payment-icon"
+                src="img/paypal.png"
+                alt="paypal"
+                width="50px"
+              />
+              <img
+                class="payment-icon"
+                src="img/visa.png"
+                alt="visa"
+                width="50px"
+              />
+            </div>
+          </div>
+          <div class="icons container">
+            <a href="icons.html"><span>Icons</span></a>
+          </div>
+        </div>
+        <div class="bottom">
+          <p class="copyright">© All rights reserved StickerShop</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
