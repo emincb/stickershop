@@ -68,8 +68,10 @@
   cursor: pointer;
   transform: translateX(100px);
   transition: transform 0.7s ease;
+  font-size: 1.3rem;
 }
 
 .action li:hover {
-  background: rgb(219, 117, 219);
+  background-color: rgb(248, 162, 1);
+  color: white;
 }
