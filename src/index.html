@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/items/navbar.css" />
-    <link rel="stylesheet" href="css/items/product-container.css" />
-    <link rel="stylesheet" href="css/items/footer.css" />
-    <link rel="stylesheet" href="css/items/features-container.css" />
+    <link rel="stylesheet" href="css/items/product-section.css" />
+    <link rel="stylesheet" href="css/items/footer-section.css" />
+    <link rel="stylesheet" href="css/items/features-section.css" />
     <script
       src="https://kit.fontawesome.com/4e84f53473.js"
       crossorigin="anonymous"
@@ -16,24 +16,24 @@
     <title>Sticker Shop</title>
   </head>
   <body>
-      <header>
-        <section class="top-header">
-          <div class="left-cont">
-            <span>Da best stickers</span>
+    <header>
+      <section class="top-header">
+        <div class="left-cont">
+          <span>Da best stickers</span>
+        </div>
+        <div class="right-cont">
+          <div class="search-box">
+            <input
+              class="close"
+              id="search"
+              type="text"
+              placeholder="Type to search"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
           </div>
-          <div class="right-cont">
-            <div class="search-box">
-              <input
-                class="close"
-                id="search"
-                type="text"
-                placeholder="Type to search"
-              />
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
-        </section>
-        <section class="navbar">
+        </div>
+      </section>
+      <section class="navbar">
         <nav class="navigation">
           <div class="left">StickerShop</div>
           <div class="right">
@@ -43,8 +43,9 @@
             </div>
           </div>
         </nav>
-      </header>
-      <main>
+      </section>
+    </header>
+    <main>
       <section class="banner">
         <div class="banner-container">
           <div class="left-container">
@@ -64,8 +65,7 @@
           </div>
         </div>
       </section>
-    </section>
-      <div class="features-container">
+      <section class="features-section">
         <div class="f-container">
           <div id="home-delivery-icon">
             <img
@@ -113,8 +113,8 @@
             <p>We definitely have what you want, Let's find it</p>
           </div>
         </div>
-      </div>
-      <div class="product-container">
+      </section>
+      <section class="product-section">
         <div class="product-card">
           <div class="product-image">
             <img
@@ -304,10 +304,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
-      <div class="footer-container">
+      <section class="footer-section">
         <div class="top">
           <div class="home container">
             <a href="index.html"><span>Home</span></a>
@@ -330,7 +330,7 @@
         <div class="bottom">
           <p class="copyright">© All rights reserved StickerShop</p>
         </div>
-      </div>
+      </section>
     </footer>
     <script src="scripts/script.js"></script>
   </body>
