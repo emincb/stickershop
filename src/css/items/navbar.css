@@ -46,8 +46,3 @@
   color: rgb(248, 162, 1);
   border: 0.8px solid rgb(83, 7, 83);
 }
-
-#dark-mode-btn:hover {
-  color: white;
-  background: black;
-}
