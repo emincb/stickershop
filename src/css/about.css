@@ -96,7 +96,8 @@ html {
 }
 
 .search-box {
-  background: white;
+  color: white;
+  background: rgb(71, 71, 71);
   margin: 2px 0px;
   padding: 0px 10px;
   border-radius: 30px;
@@ -115,4 +116,5 @@ html {
   outline: none;
   transition: all 0.4s ease;
   width: 0px;
+  color: white;
 }
