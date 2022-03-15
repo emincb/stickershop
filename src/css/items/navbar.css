@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.icon {
+.navigation .icon {
   background: white;
   color: black;
   border-radius: 10px;
@@ -41,7 +41,7 @@
   align-items: center;
 }
 
-.icon:hover {
+.navigation .icon:hover {
   cursor: pointer;
   color: rgb(248, 162, 1);
   border: 0.8px solid rgb(83, 7, 83);
