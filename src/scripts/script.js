@@ -17,3 +17,12 @@ function changeImage() {
 }
 
 setInterval(changeImage, 3000);
+
+const topHeader = document.querySelector(".top-header");
+window.addEventListener("scroll", function () {
+  if (this.scrollY === 0) {
+    topHeader.style.removeProperty("position");
+  } else {
+    topHeader.style.position = "fixed";
+  }
+});
