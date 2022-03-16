@@ -46,3 +46,46 @@
   color: rgb(248, 162, 1);
   border: 0.8px solid rgb(83, 7, 83);
 }
+
+#chart::after {
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  top: 50px;
+  right: 70px;
+  width: 15px;
+  height: 15px;
+  background: white;
+  transform: rotate(45deg);
+}
+
+.chart-modal {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  position: absolute;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  top: 59px;
+  right: 10px;
+  width: 250px;
+  height: 150px;
+  font-weight: 600;
+  color: black;
+  background: white;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chart-modal i {
+  font-size: 1.5rem;
+  padding: 0px 0px 20px 0px;
+}
+
+#chart:hover > .chart-modal,
+#chart:hover::after {
+  visibility: visible;
+}

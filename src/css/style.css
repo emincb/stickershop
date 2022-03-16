@@ -12,13 +12,15 @@ body {
 }
 
 .top-header {
-  background: rgb(48, 48, 48);
-  color: white;
-  padding: 2px 0px;
-  font-size: 0.9rem;
   display: flex;
+  width: 100%;
+  padding: 2px 0px;
+  color: white;
+  background: rgb(48, 48, 48);
   justify-content: space-around;
   align-items: baseline;
+  font-size: 0.9rem;
+  z-index: 10;
 }
 
 .left-cont {
@@ -59,9 +61,10 @@ body {
 }
 
 .navbar {
+  position: relative;
+  height: 8vh;
   background: linear-gradient(to bottom, rgb(248, 162, 1), rgb(243, 173, 44));
   color: white;
-  height: 8vh;
 }
 
 .banner {
