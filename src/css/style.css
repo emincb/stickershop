@@ -9,6 +9,7 @@
 
 body {
   background: rgb(221, 221, 221);
+  min-width: 1200px;
 }
 
 .top-header {
