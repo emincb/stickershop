@@ -53,9 +53,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* .form-container:hover {
-  width: 100%;
-} */
+
 .signin-form {
   width: 100%;
   display: flex;
@@ -65,10 +63,9 @@ body {
 .input-container {
   width: 70%;
   height: 100%;
-  padding: 2px 10px;
+  padding: 0px 10px 8px 10px;
   margin: 10px 0px;
-  border: 1px solid purple;
-  border-radius: 15px;
+  border-bottom: 1px solid purple;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -80,6 +77,10 @@ body {
   padding: 5px 10px;
   font-size: 0.9rem;
   width: 80%;
+}
+
+input:focus::placeholder {
+  color: purple;
 }
 
 .social-login {
