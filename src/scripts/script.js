@@ -26,3 +26,10 @@ window.addEventListener("scroll", function () {
     topHeader.style.position = "fixed";
   }
 });
+
+const exploreBtn = document.querySelector(".explore-btn span");
+const productSection = document.querySelector(".product-section");
+
+exploreBtn.addEventListener("click", function () {
+  productSection.scrollIntoView({ behavior: "smooth" });
+});
